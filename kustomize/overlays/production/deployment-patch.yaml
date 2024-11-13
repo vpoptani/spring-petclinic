@@ -1,0 +1,7 @@
+# overlays/production/deployment-patch.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-petclinic
+spec:
+  replicas: 3
